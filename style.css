@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+}
+.container {
+  margin-top: 72px;
+  width: 476px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #f8f8f8;
+  border: 3px solid white;
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+.container header {
+  padding: 16px 0;
+  color: white;
+  background-color: #a18df3;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+header h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+header h1::selection {
+  color: goldenrod;
+  background-color: white;
+}
+header input {
+  margin-top: 20px;
+  display: block;
+  width: 86px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+header button {
+  margin-top: 20px;
+  padding: 8px 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+}
+/* pseudo class */
+header button:hover {
+}
+.currencies {
+  padding: 12px;
+}
+.card {
+  margin-bottom: 24px;
+  padding: 16px 0;
+  background-color: white;
+}
+/* pseudo selector */
+.card:last-of-type {
+  margin-bottom: 0;
+}
+.card .title {
+  font-weight: 700;
+  color: #222;
+}
+.card .value {
+  color: #747474;
+  font-weight: 600;
+}
